@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body {
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 900px;
+    height: 600px;
+    background-color: #0F172A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box{
+    background-color: #1D2235;
+    width: 400px;
+    height: 550px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.box h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 12px;
+    color:#493CA7;
+    gap: 100px;
+    margin-top: 20px;
+}
+.box p{
+    color:#8792A4 ;
+    align-items: center;
+     text-align: center;
+    font-size: 14px;
+    margin-bottom: 12px;
+    gap: 100px;
+}
+
+form > label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-top: 40px;
+     margin-left: 40px ;
+     color: white;
+    
+}
+form > input{
+    
+    margin: 0 auto 25px;
+    width: 80%;
+    height: 50px;
+    display: block;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    border: 2px solid #343D4C;
+    background-color: #272C40;
+    color: white;
+    font-size: 15px;
+
+}
+
+.cheakbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.cheakbox a {
+    text-decoration: none;
+}
