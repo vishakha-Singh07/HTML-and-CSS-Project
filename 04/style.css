@@ -3,82 +3,95 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #D7C3B8;
+}
 
-    body {
-    background-color:black;
+/*-------- header part start---------- */
+.continer{
+    width: 100%;
+  height: 100px;
+  background-color: #07023e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:400px;
+  /* border: 4px solid darkred; */
+}
+nav{
+display:flex;
+gap: 20px;
+
+}
+header a{
+    color: azure;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.container{
-    width: 900px;
-    height: 600px;
-    background-color: #0F172A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-.box{
-    background-color: #1D2235;
-    width: 400px;
-    height: 550px;
-    border: 1px solid white;
-    border-radius: 15px;
-}
-.box h1{
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 12px;
-    color:#493CA7;
-    gap: 100px;
-    margin-top: 20px;
-}
-.box p{
-    color:#8792A4 ;
-    align-items: center;
-     text-align: center;
-    font-size: 14px;
-    margin-bottom: 12px;
-    gap: 100px;
-}
-
-form > label{
-    display: block;
-    font-weight: bold;
-    margin-bottom: 12px;
-    margin-top: 40px;
-     margin-left: 40px ;
-     color: white;
     
 }
-form > input{
-    
-    margin: 0 auto 25px;
-    width: 80%;
-    height: 50px;
-    display: block;
-    margin-bottom: 12px;
-    border-radius: 12px;
-    margin-bottom: 25px;
-    border: 2px solid #343D4C;
-    background-color: #272C40;
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    font-size: 15px;
-
+    font-family: Arial, Helvetica, sans-serif;
+      text-shadow: 3px 3px 5px darkred;
+    
 }
+.logo img{
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+}
+/*----------- header part end ------------*/
 
-.cheakbox {
+/*------------- main part start--------- */
+
+.box {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 40px;
-    margin-right: 40px;
+    justify-content: center;
 }
 
+.main-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 800px;
+    height: 500px;
+    background-color: #07023e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px;
+     
+}
 
-.cheakbox a {
-    text-decoration: none;
+.text {
+    width: 50%;
+    color: white;
+}
+
+.text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+      text-shadow: 3px 3px 5px darkred;
+}
+
+.text p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-shadow: 5px 5px 4px darkred;
+}
+
+.pictur {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.pictur img {
+    width: 250px;
+    border: 5px solid darkred;
+    object-fit: cover;
+    border-radius: 30px;
 }
